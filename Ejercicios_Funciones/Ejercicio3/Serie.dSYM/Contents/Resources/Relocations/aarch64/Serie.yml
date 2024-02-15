@@ -1,0 +1,9 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/ruthyal/Documents/Documentos - MacBook Air de CIA/GitHub/Learn_C/Ejercicios_Funciones/Ejercicio3/Serie'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _Serie, symObjAddr: 0x0, symBinAddr: 0x100003CF0, symSize: 0x98 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _Serie, symObjAddr: 0x0, symBinAddr: 0x100003CF0, symSize: 0x98 }
+  - { offsetInCU: 0x93, offset: 0x93, size: 0x8, addend: 0x0, symName: _MiPotencia, symObjAddr: 0x98, symBinAddr: 0x100003D88, symSize: 0x64 }
+  - { offsetInCU: 0xE5, offset: 0xE5, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0xFC, symBinAddr: 0x100003DEC, symSize: 0xD4 }
+...

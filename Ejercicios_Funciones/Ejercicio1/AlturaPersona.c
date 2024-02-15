@@ -1,21 +1,7 @@
 #include <stdio.h>
+#include <ctype.h>
 
-// Función para calcular la altura de una persona
-double CalculaAlt(double long_tibia, char sexo) {
-    // Fórmula para hombres
-    if (sexo == 'H') {
-        return 69.089 + 2.238 * long_tibia;
-    } 
-    // Fórmula para mujeres
-    else if (sexo == 'M') {
-        return 61.412 + 2.317 * long_tibia;
-    } 
-    // Si el sexo no es válido
-    else {
-        printf("Sexo no válido.\n");
-        return -1; // Valor de retorno inválido
-    }
-}
+double CalculaAlt(double long_tibia, char sexo);
 
 int main() {
     double long_tibia;
@@ -48,4 +34,22 @@ int main() {
     } while (continuar == 'S' || continuar == 's');
 
     return 0;
+}
+
+
+// Función para calcular la altura de una persona
+double CalculaAlt(double long_tibia, char sexo) {
+    // Fórmula para hombres
+    if (sexo == 'H') {
+        return 69.089 + 2.238 * long_tibia;
+    } 
+    // Fórmula para mujeres
+    else if (sexo == 'M') {
+        return 61.412 + 2.317 * long_tibia;
+    } 
+    // Si el sexo no es válido
+    else {
+        printf("Sexo no válido.\n");
+        return -1; // Valor de retorno inválido
+    }
 }

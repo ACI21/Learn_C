@@ -2,18 +2,31 @@
 
 // Prototipo de Serie()
 float Serie(float x, int nt);
+float MiPotencia(float base, int e);
 
 // Función para calcular la serie
 float Serie(float x, int nt) {
     int i;
     float sum = 0;
     // Iterar sobre cada término de la serie
-    for (i = 0; i < nt; i++) {
+    for (i = 1; i <= nt; i++) {
         // Calcular el término utilizando la función MiPotencia() del Programa 2
-        sum += MiPotencia(-1, i) * MiPotencia(x, i+1);
+        sum += MiPotencia(x, i) * MiPotencia(-1, i+1);
     }
     return sum;
 }
+
+// Función para calcular la potencia de un número real elevado a un número entero positivo
+float MiPotencia(float base, int e) {
+    float result = 1; // Inicializar el resultado como 1
+    int i;
+    // Multiplicar la base 'e' veces
+    for (i = 0; i < e; i++) {
+        result *= base;
+    }
+    return result;
+}
+
 
 int main() {
     float x;
