@@ -1,0 +1,22 @@
+// Scope error
+#include <stdio.h>
+
+int add(void);
+
+int main(void)
+{
+    // Prompt user for x
+    int x = get_int("x: ");
+
+    // Prompt user for y
+    int y = get_int("y: ");
+
+    // Perform addition
+    int z = add();
+    printf("%i\n", z);
+}
+
+int add(void)
+{
+   // return x + y;
+}
