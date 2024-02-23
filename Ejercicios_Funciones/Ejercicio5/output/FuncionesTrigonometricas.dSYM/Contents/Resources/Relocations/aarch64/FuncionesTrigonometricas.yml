@@ -1,0 +1,12 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/ruthyal/Documents/Documentos - MacBook Air de CIA/GitHub/Learn_C/Ejercicios_Funciones/Ejercicio5/output/FuncionesTrigonometricas'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _Factorial, symObjAddr: 0x0, symBinAddr: 0x10000389C, symSize: 0x68 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _Factorial, symObjAddr: 0x0, symBinAddr: 0x10000389C, symSize: 0x68 }
+  - { offsetInCU: 0x85, offset: 0x85, size: 0x8, addend: 0x0, symName: _Seno, symObjAddr: 0x68, symBinAddr: 0x100003904, symSize: 0xE8 }
+  - { offsetInCU: 0xD7, offset: 0xD7, size: 0x8, addend: 0x0, symName: _Serie, symObjAddr: 0x150, symBinAddr: 0x1000039EC, symSize: 0xB0 }
+  - { offsetInCU: 0x137, offset: 0x137, size: 0x8, addend: 0x0, symName: _Coseno, symObjAddr: 0x200, symBinAddr: 0x100003A9C, symSize: 0xE0 }
+  - { offsetInCU: 0x189, offset: 0x189, size: 0x8, addend: 0x0, symName: _Tangente, symObjAddr: 0x2E0, symBinAddr: 0x100003B7C, symSize: 0x48 }
+  - { offsetInCU: 0x1BF, offset: 0x1BF, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x328, symBinAddr: 0x100003BC4, symSize: 0x214 }
+...
