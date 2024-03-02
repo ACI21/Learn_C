@@ -1,0 +1,8 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/ruthyal/Documents/Documentos - MacBook Air de CIA/GitHub/Learn_C/Examen/Intersemestral/Marzo - 2021/Ejercicio 3/output/Program'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003CDC, symSize: 0x1D8 }
+  - { offsetInCU: 0x48, offset: 0x48, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003CDC, symSize: 0x1D8 }
+  - { offsetInCU: 0xFC, offset: 0xFC, size: 0x8, addend: 0x0, symName: _CargarVector, symObjAddr: 0x1D8, symBinAddr: 0x100003EB4, symSize: 0x80 }
+...
