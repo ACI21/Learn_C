@@ -1,0 +1,10 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/ruthyal/Documents/Documentos - MacBook Air de CIA/GitHub/Learn_C/Examen/Intersemestral/Marzo - 2020/Ejercicio 3/output/Program'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x1000033F0, symSize: 0x414 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x1000033F0, symSize: 0x414 }
+  - { offsetInCU: 0x15F, offset: 0x15F, size: 0x8, addend: 0x0, symName: _Verificar_Long_Palabra, symObjAddr: 0x414, symBinAddr: 0x100003804, symSize: 0x118 }
+  - { offsetInCU: 0x1BF, offset: 0x1BF, size: 0x8, addend: 0x0, symName: _Comprobar_y_Escribir_Palabra, symObjAddr: 0x52C, symBinAddr: 0x10000391C, symSize: 0x374 }
+  - { offsetInCU: 0x273, offset: 0x273, size: 0x8, addend: 0x0, symName: _ImprimirMatriz, symObjAddr: 0x8A0, symBinAddr: 0x100003C90, symSize: 0xBC }
+...
