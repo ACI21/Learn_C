@@ -33,7 +33,7 @@ int main() {
         return 1;
     }
 
-    char palabras[MAX_PALABRAS][20]; // Arreglo para almacenar las palabras
+    char palabras[MAX_PALABRAS][N]; // Arreglo para almacenar las palabras
     int indices[MAX_PALABRAS][2]; // Arreglo para almacenar los índices de fila y columna
     int direcciones[MAX_PALABRAS]; // Arreglo para almacenar las direcciones (0 = Horizontal, 1 = Vertical, 2 = Diagonal)
     int longitudes[MAX_PALABRAS]; // Arreglo para almacenar las longitudes de las palabras
